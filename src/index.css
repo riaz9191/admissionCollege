@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .nav .active {
-  @apply bg-inherit text-purple-600 border-b-2 border-purple-600;
+  @apply bg-inherit text-orange-600 border-b-2 border-purple-600;
 }

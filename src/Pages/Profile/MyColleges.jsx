@@ -33,7 +33,7 @@ const MyColleges = () => {
           <div className='mt-8 h-screen mb-[2180px] md:mb-[700px] lg:mb-8 w-full mx-auto'>
             <Helmet><title>Applied | Collegia</title></Helmet>
 
-            <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-purple-600 mb-10">Applied for Colleges</h1>
+            <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-orange-600 mb-10">Applied for Colleges</h1>
             {applied.length === 0 ?
               <div className="h-96 flex items-center justify-center">
                 You have not Applied Yet!
@@ -47,7 +47,7 @@ const MyColleges = () => {
                         <img src={item.photo} className="max-w-sm rounded-lg shadow-2xl md:w-52 w-11/12" />
                         <div className="space-y-2">
                           <h1 className="text-2xl font-bold">{item.college}</h1>
-                          <p className="text-md font-semibold text-purple-600">School of {item.subject}</p>
+                          <p className="text-md font-semibold text-orange-600">School of {item.subject}</p>
 
                           <div className="md:flex items-end md:gap-40 lg:gap-28 space-y-4 md:space-y-0">
                             <div className="mb-5">

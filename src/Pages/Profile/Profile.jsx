@@ -32,7 +32,7 @@ const Profile = () => {
         <div className='mt-8 md:mb-24 mb-14 w-full mx-auto'>
           <Helmet><title>Profile | Collegia</title></Helmet>
 
-            <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-purple-600 mb-32">My Profile</h1>
+            <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-orange-600 mb-32">My Profile</h1>
 
             <section className="md:w-1/2 mx-auto">
               <div key={item._id} className="w-full relative mt-16 bg-base-200 rounded-xl pt-16 text-center p-6">
@@ -48,15 +48,15 @@ const Profile = () => {
                 </h1>
 
                 <div className="menu menu-horizontal flex-col text-left gap-2 md:text-lg">
-                  <p className="text-purple-600 font-semibold flex items-center gap-1">
+                  <p className="text-orange-600 font-semibold flex items-center gap-1">
                     <MdEmail />  Email:
                     <span className="text-gray-700"> {item?.email}</span>
                   </p>
-                  <p className="text-purple-600 font-semibold flex items-center gap-1">
+                  <p className="text-orange-600 font-semibold flex items-center gap-1">
                     <MdAssuredWorkload />  University:
                     <span className="text-gray-700"> {item?.college ? item.college : '~ Data not found ~'}</span>
                   </p>
-                  <p className="text-purple-600 font-semibold flex items-center gap-1">
+                  <p className="text-orange-600 font-semibold flex items-center gap-1">
                     <MdLocationOn />  Address:
                     <span className="text-gray-700"> {item?.address ? item.address : '~ Data not found ~'}</span>
                   </p>

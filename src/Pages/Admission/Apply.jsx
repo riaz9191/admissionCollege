@@ -78,7 +78,7 @@ const Apply = () => {
           <div className='mt-8 md:mb-24 mb-14 w-full mx-auto'>
             <Helmet><title>Apply | Collegia</title></Helmet>
 
-            <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-purple-600 mb-10">Apply to {colleges.name}</h1>
+            <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-orange-600 mb-10">Apply to {colleges.name}</h1>
 
             <div className="divide-y divide-gray-200 w-11/12 mx-auto md:w-3/4 lg:w-1/2 border-4 border-purple-400 rounded px-4 py-8 md:mt-14 shadow-2xl">
               <form className="text-base leading-6 space-y-8 text-gray-700 sm:text-lg sm:leading-7" onSubmit={handleSubmit}>

@@ -35,7 +35,7 @@ const Gallery = () => {
 
   return (
     <div className="container mb-24">
-      <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-purple-600 mb-10" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+      <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-orange-600 mb-10" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">Graduates Gallery </h1>
 
         <div>

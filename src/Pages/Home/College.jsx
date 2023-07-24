@@ -38,7 +38,7 @@ const College = () => {
 
   return (
     <div className='mb-24 w-full mx-auto'>
-      <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-purple-600 mb-4" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+      <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-orange-600 mb-4" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">Best Colleges</h1>
       <div className="text-center">
         <input type="text" placeholder="Search for College.." className="input input-bordered input-sm input-primary lg:w-full max-w-xs mb-10"
@@ -58,11 +58,11 @@ const College = () => {
 
                   <p className="font-semibold text-gray-600 flex items-center gap-1.5"> <FcCalendar /> Admission Starts on: <span className="animate-pulse text-red-500">{college.admission}</span></p>
 
-                  <p className="text-md font-semibold text-gray-600 flex items-center gap-1.5"><FcFinePrint /> Published Research: <span className="text-purple-600">{college.research.ongoingProjects}</span></p>
+                  <p className="text-md font-semibold text-gray-600 flex items-center gap-1.5"><FcFinePrint /> Published Research: <span className="text-orange-600">{college.research.ongoingProjects}</span></p>
 
                   <p className="font-semibold text-gray-600 flex items-center gap-1.5">
                     <FcPositiveDynamic /> Events: {college.events.upcoming.map((event, index) => (
-                      <span key={index} className="text-purple-600 text-xs">
+                      <span key={index} className="text-orange-600 text-xs">
                         {index > 0} #{event.name}
                       </span>
                     ))}
@@ -70,13 +70,13 @@ const College = () => {
 
                   <p className="font-semibold text-gray-600 flex items-center gap-1.5">
                     <FcSportsMode /> Sports: {college.sports.map((sport, index) => (
-                      <span key={index} className="text-purple-600 text-xs">
+                      <span key={index} className="text-orange-600 text-xs">
                         {index > 0} #{sport}
                       </span>
                     ))}
                   </p>
 
-                  <div className="card-actions justify-end text-purple-600 hover:text-purple-800 duration-300 hover:duration-300" title="View Details">
+                  <div className="card-actions justify-end text-orange-600 hover:text-purple-800 duration-300 hover:duration-300" title="View Details">
                     <Link to={`/details/${college._id}`} onClick={handlePrivateRoute}>
                       <BsFillArrowRightCircleFill size={30} />
                     </Link>

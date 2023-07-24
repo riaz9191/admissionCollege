@@ -15,7 +15,7 @@ const Banner = () => {
             <h2>Collegia</h2>
          </div>
           <p className='text-sm md:text:lg lg:text-xl pl-4 lg:pl-20 text-gray-300'>We offer best colleges for you</p>
-          <Link to='/college' className="lg:px-5 ml-4 lg:ml-20 lg:py-2.5 md:px-3 md:py-2.5 px-2 py-1 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block border border-purple-600 text-sm lg:text-base">
+          <Link to='/college' className="lg:px-5 ml-4 lg:ml-20 lg:py-2.5 md:px-3 md:py-2.5 px-2 py-1 relative rounded group overflow-hidden font-medium bg-purple-50 text-orange-600 inline-block border border-purple-600 text-sm lg:text-base">
             <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
             <span className="relative group-hover:text-white">All Colleges</span>
           </Link>
@@ -31,7 +31,7 @@ const Banner = () => {
             <h2>Collegia</h2>
          </div>
           <p className='text-sm pl-4 text-gray-300'>We offer best colleges for you</p>
-          <Link to='/college' className="lg:px-5 ml-4 px-2 py-1 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block border border-purple-600 text-sm lg:text-base">
+          <Link to='/college' className="lg:px-5 ml-4 px-2 py-1 relative rounded group overflow-hidden font-medium bg-purple-50 text-orange-600 inline-block border border-purple-600 text-sm lg:text-base">
             <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
             <span className="relative group-hover:text-white">Colleges</span>
           </Link>

@@ -64,7 +64,7 @@ const Login = () => {
         </div>
       ) : (
         <div className='mt-8 md:mb-24 mb-14 w-full mx-auto'>
-          <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-purple-600">Join Collegia</h1>
+          <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-orange-600">Join Collegia</h1>
 
           <div className="flex flex-col gap-10 lg:flex-row items-start justify-between space-y-10 w-full mx-auto">
             <Helmet><title>Colleges | Collegia</title></Helmet>
@@ -131,7 +131,7 @@ const Login = () => {
                               </span>
                             </button>
                           </div>
-                          <p className="text-right text-xs font-semibold cursor-pointer hover:text-purple-600" onClick={handleResetPassword}>Forget password?</p>
+                          <p className="text-right text-xs font-semibold cursor-pointer hover:text-orange-600" onClick={handleResetPassword}>Forget password?</p>
                       </div>
 
                       <div data-aos="zoom-in" data-aos-easing="ease-out-cubic"
@@ -142,7 +142,7 @@ const Login = () => {
 
                       <p className="flex items-center gap-1 justify-center">
                         Not a member?
-                        <span className="text-red-600 text-base animate-pulse hover:text-purple-600 font-semibold cursor-pointer flex items-center gap-1"> Apply now
+                        <span className="text-red-600 text-base animate-pulse hover:text-orange-600 font-semibold cursor-pointer flex items-center gap-1"> Apply now
                           <BiSolidRightArrowCircle className="hidden md:block" />
                           <BiSolidDownArrowCircle className="md:hidden" />
                         </span>
@@ -153,7 +153,7 @@ const Login = () => {
               </div>
             </div>
 
-            <div className="divider lg:divider-horizontal py-10 text-purple-600 text-3xl">●</div>
+            <div className="divider lg:divider-horizontal py-10 text-orange-600 text-3xl">●</div>
             <Register />
           </div>
         </div>

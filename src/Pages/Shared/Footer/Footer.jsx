@@ -18,14 +18,14 @@ const Footer = () => {
 
           <div className='flex items-start gap-2'>
             <FaLocationDot className='text-lg text-[#FF182C]' />
-            <p className='hover:link hover:text-purple-600'>
+            <p className='hover:link hover:text-orange-600'>
               Room No - 205, 2nd Floor, RUCSU building, <br /> University of Rajshahi.
             </p>
           </div>
 
           <div className='flex items-center  gap-2'>
-            <IoIosMailOpen className='text-lg text-purple-600' />
-            <p className='hover:link hover:text-purple-600'>
+            <IoIosMailOpen className='text-lg text-orange-600' />
+            <p className='hover:link hover:text-orange-600'>
               collegia@ru.edu.bd
             </p>
           </div>
@@ -36,21 +36,21 @@ const Footer = () => {
 
           <div className='flex items-start  gap-2'>
             <BiLogoFacebookCircle className='text-xl text-[#1877F2]' />
-            <p className='hover:link hover:text-purple-600'>
+            <p className='hover:link hover:text-orange-600'>
               Facebook Page
             </p>
           </div>
 
           <div className='flex items-start  gap-2'>
             <BiLogoLinkedin className='text-xl text-[#0A66C2]' />
-            <p className='hover:link hover:text-purple-600'>
+            <p className='hover:link hover:text-orange-600'>
               LinkedIn Page
             </p>
           </div>
 
           <div className='flex items-start  gap-2'>
             <IoLogoWhatsapp className='text-lg text-[#25D366]' />
-            <p  className='hover:link hover:text-purple-600'>
+            <p  className='hover:link hover:text-orange-600'>
               WhatsApp Now
             </p>
           </div>
@@ -58,14 +58,14 @@ const Footer = () => {
 
         <div>
           <div className="footer-title">Community</div>
-          <p  className='text-purple-600'>
-            ●  <span className='text-black hover:link hover:text-purple-600'>Colleges</span>
+          <p  className='text-orange-600'>
+            ●  <span className='text-black hover:link hover:text-orange-600'>Colleges</span>
           </p>
-          <p  className='text-purple-600'>
-            ●  <span className='text-black hover:link hover:text-purple-600'>Executive Committee</span>
+          <p  className='text-orange-600'>
+            ●  <span className='text-black hover:link hover:text-orange-600'>Executive Committee</span>
           </p>
-          <p  className='text-purple-600'>
-            ●  <span className='text-black hover:link hover:text-purple-600'>Board Members</span>
+          <p  className='text-orange-600'>
+            ●  <span className='text-black hover:link hover:text-orange-600'>Board Members</span>
           </p>
         </div>
       </footer>

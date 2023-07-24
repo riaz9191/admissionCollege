@@ -22,7 +22,7 @@ const CollegeDetail = () => {
         <div className='mt-8 md:mb-24 mb-14 w-full mx-auto'>
           <Helmet><title>College Detail | Collegia</title></Helmet>
 
-          <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-purple-600 mb-10">Detail of the <span className="text-purple-800">{college.name}</span></h1>
+          <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-orange-600 mb-10">Detail of the <span className="text-purple-800">{college.name}</span></h1>
 
           <div className='md:mt-20 lg:flex items-start justify-between'>
             <div className='relative' data-aos="slide-right" data-aos-easing="ease-out-cubic"
