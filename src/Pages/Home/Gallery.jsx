@@ -8,10 +8,10 @@ const GalleryImage = ({ item }) => {
 
   return (
     <>
-      <h2 className="text-sm lg:text-xl font-semibold text-center  text-gray-600 mb-4" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+      <h2 className="text-sm lg:text-xl font-semibold text-center text-gray-600 mb-4" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">{item.name}</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 mb-16">
-        {item.images.map((img, index) => (
+        {item?.images.map((img, index) => (
           <img
             key={index}
             ref={imageRef}
@@ -28,18 +28,19 @@ const GalleryImage = ({ item }) => {
 const Gallery = () => {
   const [images, setImages] = useState([]);
   useEffect(() => {
-    fetch('images.json')
+    fetch('https://college-booking-server-seven.vercel.app/gallery')
       .then(res => res.json())
       .then(data => setImages(data));
   }, []);
+
   return (
     <div className="container mb-24">
       <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-purple-600 mb-10" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">Graduates Gallery </h1>
 
         <div>
-          {images.map((item, index) => (
-            <GalleryImage key={index} item={item} />
+        {images?.map((item) => (
+          <GalleryImage key={item._id} item={item} />
           ))}
         </div>
     </div>

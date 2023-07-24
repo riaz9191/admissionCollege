@@ -11,7 +11,7 @@ const AllCollege = () => {
   const { user } = useAuth()
   const [colleges, setColleges] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:5000/colleges')
+    fetch('https://college-booking-server-seven.vercel.app/colleges')
       .then(res => res.json())
       .then(data => setColleges(data));
   }, []);

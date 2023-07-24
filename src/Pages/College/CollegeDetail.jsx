@@ -36,7 +36,7 @@ const CollegeDetail = () => {
 
             <div className="divider lg:divider-horizontal text-[#136734] text-3xl lg:px-10 py-10 lg:py-0">●</div>
 
-            <div className='lg:w-[75%] w-full mx-auto text-justify space-y-2 px-3 md:px-0' data-aos="fade-up" data-aos-easing="ease-out-cubic"
+            <div className='w-full mx-auto text-justify space-y-2 px-3 md:px-0' data-aos="fade-up" data-aos-easing="ease-out-cubic"
               data-aos-duration="2000">
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
@@ -80,7 +80,6 @@ const CollegeDetail = () => {
                           <p className="text-purple-700">
                             {index > 0}
                             <span>● {event.name}</span>
-                            <span className="pl-2">on ({event.date})</span>
                           </p>
                         </h3>
                       ))}
@@ -100,25 +99,22 @@ const CollegeDetail = () => {
                   </div>
 
                     <h2 className="text-lg font-semibold text-gray-600 flex items-center gap-1.5 mt-8"><FcSportsMode className="md:text-2xl" /> Sports: </h2>
-                    <span className="text-purple-700">{college.sports.map((event, index) => (
-                      <h3 key={index} className="pl-5 lg:pl-8">
-                        <p className="text-purple-700 font-semibold">
-                          {index > 0}
-                          <span>● {event}</span>
-                        </p>
-                      </h3>
-                    ))}
-                    </span>
+                    <p className="font-semibold text-gray-600 flex items-center gap-1.5 ml-8">
+                      {college.sports.map((sport, index) => (
+                        <span key={index} className="text-purple-700">
+                          {index > 0} #{sport}
+                        </span>
+                      ))}
+                    </p>
                 </div>
               </div>
 
               <div className="pt-10">
-                  <h2 className="text-lg font-semibold text-gray-600 border-[1px] shadow-md px-2 py-1 inline rounded mr-2">Admission Process:</h2>
+                  <h2 className="text-lg font-semibold text-gray-600 shadow-sm pr-2 py-1 inline rounded">Admission Process:</h2>
                   <span className="text-base">
                      {college.admissionProcess}
                   </span>
               </div>
-
             </div>
           </div>
         </div>

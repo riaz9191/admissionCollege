@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import Container from '../../../components/Container.jsx';
+import Container from '../../../components/Container';
 import { BiMenu,  BiXCircle } from "react-icons/bi";
 import { RiLogoutCircleRLine } from "react-icons/ri";
 import logo from '/college.png';
@@ -54,12 +54,13 @@ const Navbar = () => {
               ))
             }
 
-            <li className='lg:ml-5 mt-8 lg:mt-0 rounded lg:flex items-center gap-2' onClick={handleClose}>
+            <li className='lg:ml-2 mt-8 lg:mt-0 rounded lg:flex items-center gap-2' onClick={handleClose}>
               {
-                user && <div className=' flex flex-col lg:items-center mb-3 lg:mb-0'>
+                user &&
+                <Link to='/profile' className=' flex flex-col lg:items-center mb-3 lg:mb-0'>
                   <img src={user.photoURL} alt="" className='w-10 rounded-full' />
                   <h3 className='text-xs'>{user.displayName}</h3>
-                </div>
+                  </Link>
               }
               {user ?
                 <RiLogoutCircleRLine className='text-xl lg:text-2xl cursor-pointer hover:text-purple-600' title='Logout' onClick={handleLogout} />

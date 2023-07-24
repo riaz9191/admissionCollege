@@ -1,4 +1,4 @@
-import logo from '/collegia.jpg'
+import logo from '/college.png'
 import { BiLogoFacebookCircle, BiLogoLinkedin } from "react-icons/bi";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosMailOpen, IoLogoWhatsapp } from "react-icons/io";
