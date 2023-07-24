@@ -4,9 +4,8 @@ const Paper = () => {
   return (
     <div className="container mb-24 text-center">
       <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-orange-600" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">Student's Research Papers</h1>
-      <small className="mt-2 text-sky-600 font-semibold" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">~ Recommended ~</small>
+        data-aos-duration="2000">Published Research Papers</h1>
+     
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-14" data-aos="slide-up" data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">

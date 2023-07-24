@@ -64,10 +64,10 @@ const Login = () => {
         </div>
       ) : (
         <div className='mt-8 md:mb-24 mb-14 w-full mx-auto'>
-          <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-orange-600">Join Collegia</h1>
+          <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-orange-600">Join College Gate</h1>
 
           <div className="flex flex-col gap-10 lg:flex-row items-start justify-between space-y-10 w-full mx-auto">
-            <Helmet><title>Colleges | Collegia</title></Helmet>
+            <Helmet><title>Colleges | College Gate</title></Helmet>
 
             {/* Login form */}
             <div className="relative py-6 sm:max-w-xl sm:mx-auto mt-16">
@@ -76,7 +76,7 @@ const Login = () => {
                 <div className="max-w-md w-full mx-auto" data-aos="fade-right" data-aos-easing="ease-out-cubic"
                   data-aos-duration="1000">
                   <div className="flex flex-col items-center">
-                    <h1 className="text-2xl font-semibold text-center">Login to Collegia</h1>
+                    <h1 className="text-2xl font-semibold text-center">Login to College Gate</h1>
                   </div>
 
                   <div className="divide-y divide-gray-200">

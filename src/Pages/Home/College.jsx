@@ -81,7 +81,7 @@ const College = () => {
                 <p className="font-semibold text-gray-600 flex items-center gap-1.5">
                   {" "}
                   <FcCalendar /> Admission Date:{" "}
-                  <span className="animate-pulse text-red-500">
+                  <span className=" text-red-500">
                     {college.admission}
                   </span>
                 </p>

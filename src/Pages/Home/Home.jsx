@@ -22,7 +22,7 @@ const Home = () => {
         </div>
       ) : (
         <div>
-            <Helmet><title>Home | Collegia</title></Helmet>
+            <Helmet><title>Home | College Gate</title></Helmet>
             <Banner />
             <Container>
               <College />

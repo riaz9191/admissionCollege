@@ -76,7 +76,7 @@ const Apply = () => {
           </div>
         ) : (
           <div className='mt-8 md:mb-24 mb-14 w-full mx-auto'>
-            <Helmet><title>Apply | Collegia</title></Helmet>
+            <Helmet><title>Apply | College Gate</title></Helmet>
 
             <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-orange-600 mb-10">Apply to {colleges.name}</h1>
 

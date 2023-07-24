@@ -36,7 +36,7 @@ const AllCollege = () => {
         </div>
       ) : (
         <div className='mt-8 md:mb-24 mb-14 w-full mx-auto'>
-          <Helmet><title>Colleges | Collegia</title></Helmet>
+          <Helmet><title>Colleges | College Gate</title></Helmet>
 
             <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-orange-600 mb-10">All Colleges</h1>
 

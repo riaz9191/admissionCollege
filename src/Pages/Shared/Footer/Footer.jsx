@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="footer p-10 bg-base-200 text-base-content">
         <div>
           <img src={logo} alt="" width={50} />
-          <p className='font-bold text-lg -mb-2'>Collegia Education</p>
+          <p className='font-bold text-lg -mb-2'>College Gate Education</p>
           <span>Since 2019.</span>
         </div>
 
@@ -26,7 +26,7 @@ const Footer = () => {
           <div className='flex items-center  gap-2'>
             <IoIosMailOpen className='text-lg text-orange-600' />
             <p className='hover:link hover:text-orange-600'>
-              collegia@ru.edu.bd
+              College Gate@ru.edu.bd
             </p>
           </div>
         </div>
@@ -73,7 +73,7 @@ const Footer = () => {
       <footer className="footer footer-center p-4 bg-base-300 text-base-content">
 
         <div>
-          <p>© 2023 - Collegia |  All right reserved.</p>
+          <p>© 2023 - College Gate |  All right reserved.</p>
         </div>
       </footer>
     </div>

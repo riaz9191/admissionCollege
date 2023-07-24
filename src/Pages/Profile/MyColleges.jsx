@@ -31,7 +31,7 @@ const MyColleges = () => {
           </div>
         ) : (
           <div className='mt-8 h-screen mb-[2180px] md:mb-[700px] lg:mb-8 w-full mx-auto'>
-            <Helmet><title>Applied | Collegia</title></Helmet>
+            <Helmet><title>Applied | College Gate</title></Helmet>
 
             <h1 className="text-xl md:text-3xl font-semibold text-center uppercase text-orange-600 mb-10">Applied for Colleges</h1>
             {applied.length === 0 ?
