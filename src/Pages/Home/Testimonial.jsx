@@ -24,10 +24,10 @@ const Testimonial = () => {
   return (
     <div className="container mb-16">
       <h1 className="text-xl lg:text-3xl font-semibold text-center uppercase text-orange-600 mb-10" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000">Student's Feedback</h1>
+        data-aos-duration="1000"> Feedback</h1>
       <div className="text-center">
         <Tabs>
-          <TabList className="text-purple-700 font-semibold mb-8 bg-base-200">
+          <TabList className="text-orange-700 font-semibold mb-8 bg-base-200">
             {colleges.map(college => (
               <Tab key={college._id}>{college.name}</Tab>
             ))}
@@ -54,7 +54,7 @@ const Testimonial = () => {
                       <div className="w-full mx-auto flex items-center justify-center">
                         <img src={college.image} alt="" className="w-20 h-20 rounded-full object-cover mb-6" />
                       </div>
-                      <div className="text-lg font-bold text-purple-700 w-[65%] mx-auto">{review}</div>
+                      <div className="text-lg font-bold text-orange-700 w-[65%] mx-auto">{review}</div>
                       <p className="flex items-center justify-center gap-1 mt-2"><FcRating/>{ college.rating}</p>
                     </SwiperSlide>
                   ))

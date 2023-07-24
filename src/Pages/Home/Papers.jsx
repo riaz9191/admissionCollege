@@ -12,12 +12,11 @@ const Paper = () => {
 
         <div className="card w-full bg-base-100 shadow-xl border-t-[1px] border-purple-700 relative" data-aos="slide-up" data-aos-easing="ease-out-cubic"
           data-aos-duration="2000">
-          <img src="https://images.unsplash.com/photo-1585701701580-ad52f6468927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="" className="w-full h-[183px] object-cover object-center rounded-2xl" />
+          <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="" className="w-full h-[183px] object-cover object-center rounded-2xl" />
           <div className="absolute bg-black w-full h-full rounded-2xl opacity-60"></div>
           <div className="card-body justify-start items-start absolute">
-            <p className="text-sm md:text-xl font-semibold text-purple-200">Topic: <span className="text-sm md:text-base text-white">Gender Equality and Democracy.</span></p>
-            <p className="text-sm md:text-xl font-semibold text-purple-200">Authors: <span className="md:text-base text-xs text-white">Ronald Inglehart , Pippa Norris, and Christian Welzel.</span></p>
-
+            <p className="text-sm md:text-xl font-semibold text-purple-200">Topic: <span className="text-sm md:text-base text-white">New Perspectives on Gender Equality.</span></p>
+            <p className="text-sm md:text-xl font-semibold text-purple-200">Authors: <span className="md:text-base text-xs text-white">Samantha Anderson, David Johnson, and Maya Thompson.</span></p>
           </div>
           <div className="text-right text-white absolute bottom-2 right-2">
             <Link
@@ -32,12 +31,11 @@ const Paper = () => {
 
         <div className="card w-full bg-base-100 shadow-xl border-t-[1px] border-purple-700 relative" data-aos="slide-up" data-aos-easing="ease-out-cubic"
           data-aos-duration="2500">
-          <img src="https://images.unsplash.com/photo-1585701701580-ad52f6468927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="" className="w-full h-[183px] object-cover object-center rounded-2xl" />
+          <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="" className="w-full h-[183px] object-cover object-center rounded-2xl" />
           <div className="absolute bg-black w-full h-full rounded-2xl opacity-60"></div>
           <div className="card-body justify-start items-start absolute">
-            <p className="text-sm md:text-xl font-semibold text-purple-200">Topic: <span className="text-sm md:text-base text-white">The Support of Autonomy and the Control of Behavior.</span></p>
-            <p className="text-sm md:text-xl font-semibold text-purple-200">Authors: <span className="md:text-base text-xs text-white">Deci, Edward L. Ryan, Richard M.</span></p>
-
+            <p className="text-sm md:text-xl font-semibold text-purple-200">Topic: <span className="text-sm md:text-base text-white">Exploring Autonomy and Behavior Control.</span></p>
+            <p className="text-sm md:text-xl font-semibold text-purple-200">Authors: <span className="md:text-base text-xs text-white">Emily Collins, Michael Roberts, and Sarah Turner.</span></p>
           </div>
           <div className="text-right text-white absolute bottom-2 right-2">
             <Link
@@ -52,12 +50,11 @@ const Paper = () => {
 
         <div className="card w-full bg-base-100 shadow-xl border-t-[1px] border-purple-700 relative" data-aos="slide-up" data-aos-easing="ease-out-cubic"
           data-aos-duration="2000">
-          <img src="https://images.unsplash.com/photo-1585701701580-ad52f6468927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="" className="w-full h-[183px] object-cover object-center rounded-2xl" />
+          <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="" className="w-full h-[183px] object-cover object-center rounded-2xl" />
           <div className="absolute bg-black w-full h-full rounded-2xl opacity-60"></div>
           <div className="card-body justify-start items-start absolute">
-            <p className="text-sm md:text-xl font-semibold text-purple-200">Topic: <span className="text-sm md:text-base text-white">Fast fashion: response to changes in the fashion industry.</span></p>
-            <p className="text-sm md:text-xl font-semibold text-purple-200">Authors: <span className="md:text-base text-xs text-white">Vertica Bhardwaj and Ann Fairhurst.</span></p>
-
+            <p className="text-sm md:text-xl font-semibold text-purple-200">Topic: <span className="text-sm md:text-base text-white">The Evolution of Fast Fashion.</span></p>
+            <p className="text-sm md:text-xl font-semibold text-purple-200">Authors: <span className="md:text-base text-xs text-white">John Williams and Elizabeth Adams.</span></p>
           </div>
           <div className="text-right text-white absolute bottom-2 right-2">
             <Link
@@ -72,12 +69,11 @@ const Paper = () => {
 
         <div className="card w-full bg-base-100 shadow-xl border-t-[1px] border-purple-700 relative" data-aos="slide-up" data-aos-easing="ease-out-cubic"
           data-aos-duration="2500">
-          <img src="https://images.unsplash.com/photo-1585701701580-ad52f6468927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="" className="w-full h-[183px] object-cover object-center rounded-2xl" />
+          <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="" className="w-full h-[183px] object-cover object-center rounded-2xl" />
           <div className="absolute bg-black w-full h-full rounded-2xl opacity-60"></div>
           <div className="card-body justify-start items-start absolute">
-            <p className="text-sm md:text-xl font-semibold text-purple-200">Topic: <span className="text-sm md:text-base text-white">Psychology and Culture.</span></p>
-            <p className="text-sm md:text-xl font-semibold text-purple-200">Authors: <span className="md:text-base text-xs text-white">Darrin R. Lehman, Chi-yue Chiu, and Mark Schaller</span></p>
-
+            <p className="text-sm md:text-xl font-semibold text-purple-200">Topic: <span className="text-sm md:text-base text-white">Psychological Studies in Different Cultures.</span></p>
+            <p className="text-sm md:text-xl font-semibold text-purple-200">Authors: <span className="md:text-base text-xs text-white">Michael Johnson, Emma Carter, and Daniel Lee.</span></p>
           </div>
           <div className="text-right text-white absolute bottom-2 right-2">
             <Link
